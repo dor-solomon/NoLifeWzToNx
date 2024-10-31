@@ -29,7 +29,7 @@ jobs:
 
     - name: Build the project
       run: |
-        msbuild NoLifeWzToNx.sln /p:Configuration=Release /p:WindowsSDKVersion=8.1 /p:VisualStudioVersion=14.0
+        msbuild NoLifeWzToNx.sln /p:Configuration=Debug /p:WindowsSDKVersion=8.1 /p:VisualStudioVersion=14.0
 
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
